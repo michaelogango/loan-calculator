@@ -1,6 +1,8 @@
 h1 {
     text-align: center;
     margin-top: 2em;
+    text-emphasis: bold;
+    text-decoration-color: antiquewhite;
 }
 form {
     background-color: beige;
@@ -24,9 +26,10 @@ form input[type=button] {
     float: right;
     margin-right: 9%;
     height: 2.2em;
+    color: red;
 }
 div {
-    border: 1px black solid;
+    border: 1px red;
     width: 31em;
     margin: auto;
 }
@@ -40,4 +43,9 @@ form + div {
 }
 div > span {
     color: red;
+}
+
+body
+{
+    background-color: black;
 }
